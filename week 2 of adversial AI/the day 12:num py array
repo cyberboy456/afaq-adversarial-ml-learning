@@ -1,0 +1,35 @@
+today is day 12 of my journey of 'Adversial AI' and today i learnt about the numpy array which is vary important topic.i write some basic python code which is the following.
+import numpy as np
+arr=np.array([2,4,6,8])
+print(arr.shape)
+print(arr.dtype)
+print(arr.ndim)
+print(np.mean(arr))
+print(np.max(arr))
+print(np.min(arr))
+output:
+(4,)
+int32
+1
+5.0
+8
+2
+the second code is 
+matrix=np.array([[1,2,3],[5,6,7]])
+print(matrix[0,1])
+print(matrix[:,1])
+out put:
+2
+[2 6]
+The third code is 
+a=np.array([1,2,3])
+b=np.array([4,4,6])
+print(a+b)
+print(a-b)
+print(a*2)
+print(a*b)
+output:
+[5 6 9]
+[-3 -2 -3]
+[2 4 6]
+[ 4  8 18]
