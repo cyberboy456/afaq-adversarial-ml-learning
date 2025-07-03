@@ -1,0 +1,30 @@
+i start my day 8 of Adversial Ai with dictionaries.
+dictionaries.
+Stores data like {"username": "afaq", "role": "cyberstudent"}
+Core to understanding JSON, model configs, network payloads
+Forms the backbone of AI training data and input manipulation
+on vscode i practice some important topic 
+user_info= {
+    "user_name": "afaq_ahmad",
+    "department" : "cyber security",
+    "tools": ["brupsuite","wireshark","uij"]
+}
+#print(user_info["user_name"])
+#print(user_info["department"])
+#print(user_info["tools"])
+user_info["email"]="afaq @gmail.com"
+print(user_info["email"])
+del user_info["user_name"]
+print(user_info.get("user_name"))
+code 2
+hacker_profile={
+    "username":"afaq",
+    "tools":["hydra","zphisher"],
+    "level":"beginner"
+}
+print(hacker_profile["username"])
+hacker_profile["rank"]="cybersecurity"
+hacker_profile["level"]="intermediate"
+print(hacker_profile["level"])
+del hacker_profile["tools"]
+print(hacker_profile.get("tools"))
