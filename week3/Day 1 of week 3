@@ -1,0 +1,6 @@
+This is most important day of my learning because to day i am just enter a step to my Adversarial AI
+and the most important basic topic name "AI logic simulation" in which i learn simple neuron.
+A neuron in AI is just a function that takes numbers, does some math (multiplication + addition), and then decides 1 or 0 — like "yes or no".
+the formula for this is:
+result = (x1 * w1) + (x2 * w2) + ... + bias
+i also write some code on jupiter which is upload in next file you can see it there.
