@@ -1,0 +1,18 @@
+on day 10 i learnd and practice vary importtant topic of my Adversial AI journy
+def greet_user(name):
+    print(f"Welcome, {name}!")
+
+Function with return
+def square(num):
+    return num * num
+
+Function with multiple parameters
+def build_payload(ip, port):
+    return f"Payload sent to {ip}:{port}"
+
+Security login check
+def login(username, password):
+    if username == "admin" and password == "root":
+        return "Access Granted"
+    else:
+        return "Access Denied"
