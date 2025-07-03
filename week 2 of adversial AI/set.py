@@ -1,0 +1,22 @@
+used_payloads={"xss","sql_injection","xss"}
+print(used_payloads)
+used_payloads.add("ece")
+print(used_payloads)
+print("xss"in used_payloads)
+hacking_tools=("hydra","nmap","sqlmap")
+print(hacking_tools[1])
+#hacking_tools[1]="dada"
+#print(hacking_tools)
+used_payloads.add("ali")
+print(used_payloads)
+used_payloads.remove("sql_injection")
+print(used_payloads)
+temp=list(hacking_tools)
+temp.append("ddos")
+print(temp)
+temp[1],temp[0]=temp[0],temp[1]
+print(temp)
+t=tuple(used_payloads)
+print(t)
+y=tuple(temp)
+print(y)
