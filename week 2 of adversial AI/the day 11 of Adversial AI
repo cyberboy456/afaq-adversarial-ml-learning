@@ -1,0 +1,18 @@
+on day   11 of our topic adversial ai i practice on the following topic 
+: File Handling – Teaching Python to Read & WriteWhy It Matters in Cybersecurity & AI:
+Store exploit logs, payloads, or user attempts
+
+Read poisoned datasets or AI configs
+
+Log tool outputs like scan results or failed attacks
+basic syntax for writing to file
+with open("payloads.txt", "w") as file:
+    file.write("XSS\nSQL Injection\nCommand Injection")
+ Read from a File:
+with open("payloads.txt", "r") as file:
+    content = file.read()
+    print(content)
+Append to a File:
+with open("payloads.txt", "a") as file:
+    file.write("\nRCE")
+
