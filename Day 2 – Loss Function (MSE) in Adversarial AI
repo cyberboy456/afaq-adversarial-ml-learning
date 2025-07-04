@@ -1,0 +1,12 @@
+ Loss Function
+A loss function tells the AI model how wrong its prediction is.
+The model uses this to self-correct.
+Adversarial AI uses this to exploit model weaknesseIn adversarial attacks, our goal is to:
+Increase the AI's loss by making subtle changes to the input.
+Track MSE to measure how much confusion we’re causing.
+Loss is like the pain meter of the AI.
+MSE is how we quantify that pain.
+Insight:
+“Adversarial AI isn’t about crashing the model — it’s about confusing it quietly.
+Loss functions are how we track the confusion.”
+if you want to see the code of MSE then it is upload on the next file you may see
