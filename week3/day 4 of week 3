@@ -1,0 +1,11 @@
+Topic:
+Reading real-world .csv data for AI predictions.
+What I Did:
+Used pandas to load a CSV file containing:
+Input features: size, entropy, api_calls
+Target value: danger_score
+Extrcted features and targets from the DataFrame.
+Predicted using the same AI logic (dot product + bias).
+Calculated MSE for evaluation.
+Core Concept:
+This simulates how AI works with real datasets – reading structured data from files and applying logic over multiple rows.
