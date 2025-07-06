@@ -1,0 +1,17 @@
+ Topic 
+Measuring AI’s prediction error using a loss function.
+
+ What I Did
+- Learned the concept of **Loss Function** in AI/ML.
+- Implemented **Mean Squared Error (MSE)** to measure how far AI’s prediction is from the actual value.
+- Built a `predict()` function using dot product + bias.
+- Compared predictions with target values and calculated MSE.
+
+ Core Concept:
+AI uses **loss functions** to learn from its mistakes.  
+The smaller the **MSE**, the better the model is performing.
+
+ MSE Formula:**  
+\[
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (prediction_i - target_i)^2
+\]
